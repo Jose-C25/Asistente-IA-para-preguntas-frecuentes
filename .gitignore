@@ -1,0 +1,22 @@
+
+.env
+.env.*
+!.env.example
+
+# PYTHON
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ENTORNOS VIRTUALES
+
+venv/
+.venv/
+env/
+
+# ARCHIVOS TEMPORALES
+
+*.log
+.DS_Store
+Thumbs.db
