@@ -1,22 +1,19 @@
-
+# Archivos de entorno y seguridad (CRÍTICO)
 .env
-.env.*
-!.env.example
+*.env
 
-# PYTHON
-
+# Caché de Python
 __pycache__/
-*.py[cod]
-*.pyo
+app/__pycache__/
+*.pyc
 
-# ENTORNOS VIRTUALES
+# Base de datos local e hiper-archivos
+*.db
+data/*.db
+!schema.sql
+!seed.sql
 
+# Entornos virtuales
 venv/
-.venv/
 env/
-
-# ARCHIVOS TEMPORALES
-
-*.log
-.DS_Store
-Thumbs.db
+.venv/
